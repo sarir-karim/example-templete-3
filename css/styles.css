@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #F6F9FC;
+}
+
+.img-child img{
+    width: 100%;
+}
+
+
+.navbar-section{
+    box-shadow: 1px 1px 5px  #E5E8EB;
+    margin-bottom: 2px;
+}
+.navbar-section .parent {
+    display: inline-flex;
+}
+.navbar-section .navbar{
+    background-color: #FFFFFF;
+}
+.navbar-section .head-child h6{
+    margin-bottom: 0;
+    color: #00B8C3;
+    letter-spacing: 1px;
+}
+.navbar-section .head-child p{
+    color: #A0AEB9;
+    font-size: 0.8rem;
+}
+
+.navbar-section .navbar-nav .dropdown-item{
+    color: #8A9BAD;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: .10rem 0.8rem
+}
+
+.navbar-section .navbar-nav .hr1{
+    width: 140px;
+    margin-bottom: 0%;
+    border: 2px solid #00B8C3;
+    margin-top: 0px;
+    margin-left: 24px;
+}
+.navbar-section .navbar-nav .hr2{
+    width: 25px;
+    color: grey;
+    transform: rotate(88deg);
+}
+.navbar-section .btn{
+    border-radius: 20px;
+    border: 2px solid #657D93;
+    color: #657D93;
+    background-color: transparent;
+}
+
+/* *************Styling on navbar ends */
+
+/* ---------------------Styling on main body starts from here */
+
+.container-fluid{
+    padding: 0 17%;
+}
+
+.breadcrumb{
+    background: transparent;
+    margin-top: 10px;
+}
+.breadcrumb-item{
+    color: #6B7C93;
+    font-size: 15px;
+}
+.hr-one{
+    margin-top: -15px;
+    border-width: 2px;
+    border-color: #E5E8EB;
+}
+/* styling ends on the main body  */
+
+
+/* styling starts on card section */
+.second-card{
+    box-shadow: 0px 1px 3px 1px#DEE1E4;
+    border: 0;
+
+}
+
+.first-box{
+    background-color: #0FA0B2;
+    display: inline-flex;
+    color: #fff;
+    padding: 4px 0;
+}
+.first-box .box-h51{
+    margin-right: 60px;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.first-box .box-h52{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box-hr{
+    border-width: 3px;
+    position: relative;
+    z-index: 1;
+    width: 13%;
+    bottom: 19px;
+    left: 13px;
+    border-color: #fff;
+}
+
+/* styling on main card */
+
+.img1{
+    width: 100%;
+    height: 40vh;
+    border-radius: 2%;
+    margin-left: 7%;
+}
+
+.image-para p{
+font-size: 13px;
+margin: 0;
+}
+p{
+    color: #696B79;
+    font-weight: 550;
+}
+
+.image-para .span-one{
+    background-color: #F7F7F7;
+    padding: 4px;
+}
+
+.image-para .para2{
+    font-size: 22px;
+    color: #696B79;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.image-para .icons .fa-star{
+    color: #F5A623;
+    padding-bottom: 15px;
+}
+
+.image-para .icons .star-span{
+    color: #696B79;
+}
+
+.image-para .para4{
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 520;
+    font-family: sans-serif;
+}
+
+.image-para .para4 .span-para3{
+    color: #18979C;
+    font-weight: 550;
+}
+
+.span-para15{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #18979C;
+}
+
+.image-para .para6{
+    padding-top: 22px;
+    font-size: 16px;
+}
+
+.icon-para{
+    display: flex;
+}
+.image-para .last-icons{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.image-para .last-icons i{
+    border-radius: 50%;
+    border: 1px solid #18979C;
+    color:#18979C ;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.image-para .main-hr{
+    border-width: 2px;
+}
+
+/* styling on the main container */
+
+.icon-main{
+    display: flex;
+    padding-left: 15px;
+    color:#696B79;
+}
+.icon-main .icon-11{
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.icon-main .main-head-para{
+    font-size: 14px;
+}
+
+.icon-main h6{
+    font-size: 13px;
+}
+
+/* this styling ends here */
+
+/* second icon-para starts from here */
+
+.second-icon-main{
+    display: flex;
+    padding-left: .6rem;
+    color:#696B79;
+    margin-top: 20px;
+}
+.second-icon-main .icon-12{
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.second-icon-main .main-head-2 ul li{
+    list-style: none;
+    color: #4d4d50;
+    font-weight: 560;
+    font-size: 14px;
+}
+
+/* this styling ends here */
+
+.third-icon-main{
+    padding-left: .8rem;
+    display: flex;
+    color: #4d4d50;
+}
+
+.third-icon-main .icon-13{
+    margin-right: 15px;
+    font-size: 22px;
+}
+.third-icon-main .third-ul{
+    margin-left: 2rem;
+    font-weight: 550;
+}
+
+/* styling ends on the first */
+.first-card{
+    box-shadow: 0px 1px 3px 1px#DEE1E4;
+    border: 0;
+    
+}
+
+.form-final{
+    color: #657D93;
+}
+
+.card-title1{
+    padding: 10px 20px 0;
+    background-color: #0FA0B2;
+    color: #fff;
+}
+.form-label{
+    font-size: 14px;
+}
+#formGroupExampleInput{
+    color: #696B79;
+}
+
+.card-title1 h4{
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.card-title1 p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-small-card{
+    padding: 4px 20px;
+    border-radius: 30px;
+    color: #15959A;
+    background-color: transparent;
+    border:2px solid #15959A;
+}
+
+/* section last card */
+.section-last-card{
+    box-shadow: 0px 1px 3px 1px#DEE1E4;
+    border: 0;
+}
+
+.section-last-card #h5{
+    padding: 20px;
+    font-size: 18px;
+    color: #5D5E6E;
+
+}
+
+.section-last-card #h51{
+    padding: 20px 0 0 0;
+    font-size: 16px;
+}
+
+.section-last-card #last-span{
+    font-size: 15px;
+    margin-right: 15px;
+    color: #18979C;
+}
+
+.section-last-card #last-button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+}
+
+/* Third card icons */
+.last-card-icons-main{
+    padding: 0 15px;
+}
+.last-card-icons-main p{
+    margin: 0;
+}
+
+.third-card-icons{
+    font-size: 14px;
+    padding-bottom: 0;
+    font-weight: 200;
+}
+
+.third-card-icon{
+    font-size: 9.9px;
+}
+.third-card-icon #gray{
+    color: gray;
+}
+.last-card-icons-main i{
+    color: #F49342;
+}
+
+.last-card-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.head-icons .head h5{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.head-icons .stars i{
+    font-size: 14px;
+    color: #F49342;
+}
+/* this styling ends here */
+
+.child-h6{
+    font-size: 14.5px;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.h6-hr {
+    color: gray;
+}
+.child-p{
+    font-size: 13.5px;
+    margin-left:18px ;
+}
+
+.span-hr1{
+
+    color: #44AAAE;
+}
+.final-hr{
+    margin-left: 20px;
+    width: 33rem;
+}
+
+.last-button{
+    padding: 5px 12rem;
+    border: 2px solid #D7DDE3;
+    font-weight: 550;
+    margin: 20px;
+    outline: none;
+    border: none;
+}
+
+/* footer styling */
+
+.footer-section li{
+    list-style: none;
+    line-height: 30px;
+    font-weight: 700;
+    color: #657D93;
+    font-size: 15px;
+}
+.footer-section .h5{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #686A78;
+    margin-top: 15px;
+}
+.footer-section .lastRow{
+    margin-top: 3rem;    
+}
+
+.footer-section i{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin: 4px;
+    padding-top: 9px;
+    padding-left: 9px;
+    background-color: #657D93;
+    border-radius: 50%;
+}
+
+.footer-section .fa-question{
+    font-size: 10px;
+    background: none;
+    color: #B8C1CA;
+    margin-left: 0;
+}
+.footer-section .question-h5{
+    font-size: 14px;
+    margin-right: 0;
+    color: #A3AFBD;
+}
+
+.subfooter-section ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 10px;
+}
+.footer-section .head{
+    margin-left: 10px;
+}
+
+.footer-section .head h5 {
+    font-size: 17px;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #00B6C0;
+}
+.footer-section .head p{
+    font-size: 13px;
+    color: #B8C1CA;
+}
+
+.feature-section ul li{
+    color: #A3AFBD;
+    font-weight: 500;
+    line-height: 1.9;
+}
+.company ul li{
+    color: #A3AFBD;
+    font-weight: 500;
+}
+.icons-section{
+    margin-left: -55px;
+}
+.col{
+    overflow: hidden;
+}
+.subfooter-section{
+    margin-bottom: 0;
+
+}
+
+.subfooter-section .row{   
+    margin-right: 0px;
+    margin-left: -15px;
+}
+.subfooter-section h5{
+    font-size: 13.5px;
+    color: #A0AEB9;
+    margin-top: 5px;
+}
+.subfooter-section .sub-text ul li{
+    font-size: 13px;
+    margin: 1;
+    margin-top: 0;
+    color: #A0AEB9;
+    margin-top: -5px;
+}
+.subfooter-section .sub-hr{
+    margin: 10px 0;
+}
